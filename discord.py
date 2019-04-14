@@ -2,7 +2,7 @@ import discord
 import os
 
 
-client = commands.Bot(command_prefix='>')
+client = discord.Client()
 
 
 @client.event

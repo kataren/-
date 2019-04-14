@@ -20,4 +20,4 @@ async def on_message(message):
         await message.channel.send("안녕하세요?")
 
 
-bot.run(os.environ['TOKEN'])
+client.run(os.environ['TOKEN'])
